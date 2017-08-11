@@ -3,7 +3,9 @@
 
 ## 1.Load a large file
 
-<pre>with open(filename, 'rb') as f:
+<pre>#!usr/bin/env python
+#coding:utf-8
+with open(filename, 'rb') as f:
 	for line in f:
 		do something with the line</pre>
 ## Reference
